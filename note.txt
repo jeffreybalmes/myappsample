@@ -11,6 +11,8 @@ git clone //Clone repository into a new directory
 git config --global user.name 'Brad Traversy'
 git config --global user.email 'me@bradtraversy.com'
 git rm --cached index.html // to unstage
+git branch login //branch name - login
+git checkout login //switched to branch
 
 ----
 touch index.html
