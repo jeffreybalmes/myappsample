@@ -1,0 +1,17 @@
+git --version
+git init //Initialize Local Git Repository
+git add <file> //Add File(s) to index
+git add *.html
+git add . //add all files
+git status // Check status of working tree
+git commit -m 'comment' // Commit changes in index
+git push //Push  to remote repository (SSH keys for password)
+git pull // Pull latest from remote repository
+git clone //Clone repository into a new directory
+git config --global user.name 'Brad Traversy'
+git config --global user.email 'me@bradtraversy.com'
+git rm --cached index.html // to unstage
+
+----
+touch index.html
+touch .gitignore //add files here to ignore changes
