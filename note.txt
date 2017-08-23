@@ -24,3 +24,6 @@ git push -u origin master
 touch index.html
 touch .gitignore //add files here to ignore changes
 clear
+touch README.md
+git push
+
