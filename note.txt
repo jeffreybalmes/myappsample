@@ -15,6 +15,12 @@ git branch login //branch name - login
 git checkout login //switched to branch or master
 git merge login // merge branch
 
-----
+------
+git remote add origin <link>
+git remote
+git push -u origin master
+
+------
 touch index.html
 touch .gitignore //add files here to ignore changes
+clear
